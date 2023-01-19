@@ -1,0 +1,9 @@
+.navbar {
+  &__menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__btn {
+    margin-left: 56px;
+  }
+}
