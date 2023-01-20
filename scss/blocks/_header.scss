@@ -7,3 +7,23 @@
     margin-left: 56px;
   }
 }
+
+.header-top {
+  padding: 10px 0;
+  background: $main-color;
+  &__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    color: #ffb700;
+  }
+  &__link {
+    color: #ffffff;
+  }
+  &__link-gold {
+    color: #fbc70e;
+    margin-left: 18px;
+  }
+}
