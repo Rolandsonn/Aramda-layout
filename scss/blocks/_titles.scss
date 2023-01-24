@@ -50,17 +50,18 @@
   content: "";
   position: absolute;
   display: inline-block;
-  width: 50vw;
+  vertical-align: middle;
+  width: 38vw;
   border-bottom: 2px solid #bebebe;
   z-index: 100;
 }
 .title::after {
   top: 50%;
-  left: -50vw;
+  left: -38vw;
 }
 .title::before {
   top: 50%;
-  right: -50vw;
+  right: -38vw;
 }
 h2 {
   margin: 0;
