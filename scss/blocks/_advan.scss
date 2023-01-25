@@ -1,0 +1,14 @@
+.advan {
+  margin-bottom: 90px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+  &__item {
+    text-align: center;
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}

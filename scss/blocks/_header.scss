@@ -1,3 +1,8 @@
+header {
+  margin-bottom: 60px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .navbar {
   &__menu {
     display: flex;
@@ -10,6 +15,13 @@
 .current {
   position: relative;
 }
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.nav-link {
+  cursor: pointer;
+}
 .current::after {
   display: block;
   margin: 0 auto;
@@ -18,7 +30,7 @@
   background-color: $main-color;
   bottom: -10px;
   height: 4px;
-  width: 100%;
+  width: 80%;
   border-radius: 2px;
   color: $main-color;
 }

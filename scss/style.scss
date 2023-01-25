@@ -2,6 +2,7 @@
 @import "./libs/bootstrap-reboot";
 @import "./libs/bootstrap-grid";
 
+/* 1 - PAGE */
 @import "./libs/variables";
 @import "./libs/fonts";
 @import "./blocks/btns";
@@ -10,8 +11,13 @@
 @import "./blocks/hero";
 @import "./blocks/service";
 @import "./blocks/work";
-@import "./blocks/gallery";
 @import "./blocks/prod";
 @import "./blocks/price";
 @import "./blocks/clients";
 @import "./blocks/team";
+@import "./blocks/foot";
+
+/* 2 - PAGE  */
+@import "./blocks/gallery";
+@import "./blocks/advan";
+@import "./blocks/about";
