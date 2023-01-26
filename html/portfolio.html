@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="../css/style.min.css" />
   </head>
   <body>
@@ -59,8 +60,11 @@
               <li class="nav-item">
                 <a class="nav-link fz14" href="../index.html">Главная </a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link fz14 current" aria-current="page" href="#"
+              <li class="nav-item">
+                <a
+                  class="nav-link fz14"
+                  aria-current="page"
+                  href="./service.html"
                   >Услуги
                 </a>
               </li>
@@ -71,7 +75,7 @@
                 <a class="nav-link fz14" href="./contacts.html">Контакты</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fz14" href="./portfolio.html">Портфолио</a>
+                <a class="nav-link fz14 current" href="#">Портфолио</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fz14" href="./prod.html">Производство </a>
@@ -85,92 +89,81 @@
     </header>
 
     <main>
-      <!-- ! GALLERY -->
-      <section class="gallery">
-        <h2 class="title gallery__title">Наши услуги</h2>
-
-        <div class="container-fluid container">
-          <div class="gallery__box">
-            <img
-              src="../image/grid-1.jpg"
-              alt=""
-              class="gallery__img gallery__grid-1"
-            />
-            <img
-              src="../image/grid-2.jpg"
-              alt=""
-              class="gallery__img gallery__grid-2"
-            /><img
-              src="../image/grid-3.jpg"
-              alt=""
-              class="gallery__img gallery__grid-3"
-            />
-            <img
-              src="../image/grid-1.jpg"
-              alt=""
-              class="gallery__img gallery__grid-4"
-            /><img
-              src="../image/grid-2.jpg"
-              alt=""
-              class="gallery__img gallery__grid-5"
-            />
-            <img
-              src="../image/grid-4.jpg"
-              alt=""
-              class="gallery__img gallery__grid-6"
-            /><img
-              src="../image/grid-2.jpg"
-              alt=""
-              class="gallery__img gallery__grid-7"
-            />
-          </div>
-        </div>
-      </section>
-
-      <!-- ! ADVANTAGE -->
-      <section class="advan">
+      <!--! PORTFOLIO -->
+      <section class="portfolio">
         <div class="container container-fluid">
-          <h2 class="title advan__title">Наши преимущества</h2>
+          <h2 class="title">Портфолио</h2>
 
-          <ul class="advan__list">
-            <li class="advan__item">
-              <img src="../image/clock.svg" alt="" class="advan__img" />
-              <p class="advan__text">Оперативность</p>
+          <ul class="portfolio__list">
+            <li class="portfolio__item portfolio__img-1">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-1.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
             </li>
-            <li class="advan__item">
-              <img src="../image/book.svg" alt="" class="advan__img" />
-              <p class="advan__text">Высококвалифицированные специалисты</p>
+            <li class="portfolio__item portfolio__img-2">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-2.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
             </li>
-            <li class="advan__item">
-              <img src="../image/settings.svg" alt="" class="advan__img" />
-              <p class="advan__text">Современное оборудование</p>
+            <li class="portfolio__item portfolio__img-3">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-3.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
             </li>
-            <li class="advan__item">
-              <img src="../image//task.svg" alt="" class="advan__img" />
-              <p class="advan__text">Широкий спектр услуг</p>
+            <li class="portfolio__item portfolio__img-4">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-4.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
+            </li>
+            <li class="portfolio__item portfolio__img-5">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-5.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
+            </li>
+            <li class="portfolio__item portfolio__img-6">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-6.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
+            </li>
+            <li class="portfolio__item portfolio__img-7">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-7.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
+            </li>
+            <li class="portfolio__item portfolio__img-8">
+              <img
+                class="portfolio__img"
+                src="../image/portfolio-8.jpg"
+                alt=""
+              />
+              <p class="portfolio__text">Работа на Манаса</p>
             </li>
           </ul>
         </div>
       </section>
-
-      <!-- ! TEAM -->
-      <section class="team">
-        <div class="container container-fluid">
-          <h3 class="team__subtitle">Оставьте бесплатную заявку</h3>
-          <p class="team__text fz18">
-            и менеджер по работе с клиентами свяжется с вами и проконсультирует
-          </p>
-
-          <form>
-            <input type="text" placeholder="Ваше имя" />
-            <input type="tel" placeholder="Ваш телефон" />
-            <button class="btn-main">Отправить</button>
-          </form>
-        </div>
-      </section>
     </main>
 
-    <!-- ! FOOTER -->
     <footer class="foot">
       <div class="container container-fluid">
         <ul class="foot__list">
