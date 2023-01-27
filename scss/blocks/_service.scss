@@ -17,7 +17,6 @@
   &__item {
     position: relative;
     text-align: center;
-    max-width: 268px;
     max-height: 403px;
     padding: 45px 22px;
     border-radius: 3px;
@@ -39,7 +38,7 @@
   }
   &__number {
     position: absolute;
-    left: 20%;
+    left: 30%;
     bottom: 40px;
   }
 }

@@ -31,3 +31,18 @@
     display: none;
   }
 }
+
+.btn-next {
+  @media (max-width: 768px) {
+    & {
+      right: 0;
+    }
+  }
+}
+.btn-prev {
+  @media (max-width: 768px) {
+    & {
+      left: 0;
+    }
+  }
+}
